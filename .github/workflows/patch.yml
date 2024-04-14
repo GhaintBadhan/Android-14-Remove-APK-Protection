@@ -32,7 +32,6 @@ jobs:
       
        - name: Download Framework and Services dir
          run: |
-            axel -n $(nproc) ${{ github.event.inputs.F }}
             axel -n $(nproc) ${{ github.event.inputs.S }}
 
 
