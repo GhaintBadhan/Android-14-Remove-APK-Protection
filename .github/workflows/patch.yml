@@ -5,7 +5,7 @@ on:
     inputs:
      F:
       description: 'framework.jar Url'
-      required: true
+      required: false
       default: ''
      S:
       description: 'services.jar Url'
